@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B725B4C56D49DC9C90D4F00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B725B4C56D49DC9C90D4F00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73128D4319C492056E12F7AE /* Pods_HotFixDZNEmptyDataSet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotFixDZNEmptyDataSet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD19802DBDCAEC269BD3E04B /* Pods_HotFixDZNEmptyDataSet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotFixDZNEmptyDataSet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48389DA66088D54017B6DBC /* HotFixDZNEmptyDataSet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HotFixDZNEmptyDataSet.podspec; path = ../HotFixDZNEmptyDataSet.podspec; sourceTree = "<group>"; };
+		C48389DA66088D54017B6DBC /* HotFixDZNEmptyDataSet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HotFixDZNEmptyDataSet.podspec; path = ../HotFixDZNEmptyDataSet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA335FD073CC13DF533F6759 /* Pods-HotFixDZNEmptyDataSet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotFixDZNEmptyDataSet_Tests.release.xcconfig"; path = "Target Support Files/Pods-HotFixDZNEmptyDataSet_Tests/Pods-HotFixDZNEmptyDataSet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF1A5D0642F0F410B4C32075 /* Pods-HotFixDZNEmptyDataSet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotFixDZNEmptyDataSet_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HotFixDZNEmptyDataSet_Tests/Pods-HotFixDZNEmptyDataSet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF656E9272D34465EFA972CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF656E9272D34465EFA972CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				EF1A5D0642F0F410B4C32075 /* Pods-HotFixDZNEmptyDataSet_Tests.debug.xcconfig */,
 				EA335FD073CC13DF533F6759 /* Pods-HotFixDZNEmptyDataSet_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -449,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
